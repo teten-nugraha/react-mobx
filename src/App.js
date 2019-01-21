@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { TodoStore } from './Store/Todo'
+import { observer } from 'mobx-react'
 
 class App extends Component {
   render() {
